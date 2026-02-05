@@ -1,0 +1,33 @@
+# =========================
+# Build artifacts
+# =========================
+build/
+dist/*/debug/
+dist/*/production/*.elf
+dist/*/production/*.map
+dist/*/production/*.lst
+dist/*/production/*.cof
+
+# =========================
+# Allow HEX files
+# =========================
+!dist/*/production/*.hex
+
+# =========================
+# MPLAB X - user specific
+# =========================
+nbproject/private/
+*.log
+
+# =========================
+# NetBeans cache
+# =========================
+nbbuild/
+nbdist/
+nbactions.xml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
