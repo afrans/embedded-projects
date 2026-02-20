@@ -1,0 +1,41 @@
+# ===== MPLAB X Build Folders =====
+dist/
+build/
+
+# ===== NetBeans/MPLAB Private Files =====
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/configurations.xml
+nbproject/project.properties
+
+# ===== Compiled Output Files =====
+*.hex
+*.elf
+*.cof
+*.map
+*.o
+*.obj
+*.d
+*.lst
+*.sym
+
+# ===== Debug Files =====
+*.cod
+*.mdb
+*.x
+
+# ===== Temporary Files =====
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ===== OS Files =====
+Thumbs.db
+.DS_Store
+
+# ===== VSCode (if you open it there) =====
+.vscode/
+
+# ===== MSYS2 / GCC extras =====
+*.exe
