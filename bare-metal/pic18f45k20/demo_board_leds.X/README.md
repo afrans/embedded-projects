@@ -4,6 +4,10 @@ C firmware for the PIC18F4520 microcontroller.
 Built with MPLAB X IDE v6.30 and XC8 v3.10.
 
 ## Build
+Verify if 2 files are included: main and other for example: main.c and 
+hello_main.c
+For include/exclude file click right button and selected
+Verify if #define RUN_HELLO is uncommented
 Open the project in MPLAB X and run **Build Project**.
 
 ## Program

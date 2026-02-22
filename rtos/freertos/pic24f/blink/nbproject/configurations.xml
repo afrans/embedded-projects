@@ -48,7 +48,7 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>README.md</itemPath>
-    <itemPath>.gitignore.txt</itemPath>
+    <itemPath>.gitignore</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>.</Elem>
