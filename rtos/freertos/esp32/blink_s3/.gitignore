@@ -1,0 +1,69 @@
+# =========================
+# ESP-IDF Build Artifacts
+# =========================
+build/
+sdkconfig.old
+sdkconfig.backup
+sdkconfig.ci
+flasher_args.json
+
+# Binários e mapas
+*.bin
+*.elf
+*.map
+
+# CMake / Ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+build.ninja
+.ninja_log
+.ninja_deps
+
+# =========================
+# ESP-IDF Generated
+# =========================
+project_description.json
+config.env
+flash_project_args
+flash_app_args
+flash_bootloader_args
+partition-table-flash_args
+app-flash_args
+bootloader-flash_args
+
+# =========================
+# Managed Components
+# =========================
+managed_components/
+
+# =========================
+# Logs
+# =========================
+log/
+*.log
+
+# =========================
+# Python / Pytest
+# =========================
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+.history/
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# GDB
+# =========================
+gdbinit
